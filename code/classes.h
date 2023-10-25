@@ -14,12 +14,16 @@ using namespace std;
 class Classes {
 
     private:
+        string class_code;
+        string uc_code;
         string day_of_class;
         string start_of_class;
         string duration_of_class;
         string type_of_class;
 
     public:
+        const string get_class_code();
+        const string get_uc_code();
         const string get_day_of_class();
         const string get_start_of_class();
         const string get_duration_of_class();

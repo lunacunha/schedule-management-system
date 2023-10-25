@@ -15,6 +15,15 @@
 
 // getters para os dados necessários de cada turma
 
+
+const string Classes::get_class_code() {
+    return class_code;
+}
+
+const string Classes::get_uc_code() {
+    return uc_code;
+}
+
 const string Classes::get_day_of_class() {
     return day_of_class;
 }
@@ -30,3 +39,5 @@ const string Classes::get_duration_of_class() {
 const string Classes::get_type_of_class() {
     return type_of_class;
 }
+
+
