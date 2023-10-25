@@ -1,0 +1,35 @@
+//
+// Created by Luna on 25/10/2023.
+//
+
+#ifndef PROJECT_CLASSES_H
+#define PROJECT_CLASSES_H
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+class Classes {
+
+    private:
+        string day_of_class;
+        string start_of_class;
+        string duration_of_class;
+        string type_of_class;
+
+    public:
+        const string get_day_of_class();
+        const string get_start_of_class();
+        const string get_duration_of_class();
+        const string get_type_of_class();
+
+
+}
+
+;
+
+
+
+#endif //PROJECT_CLASSES_H
