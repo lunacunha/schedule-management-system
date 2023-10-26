@@ -8,4 +8,5 @@ include_directories(code)
 add_executable(project
         code/parsedatatovectors.cpp
         code/parsedatatovectors.h
-        code/classes.cpp)
+        code/classes.cpp
+        code/students.cpp)

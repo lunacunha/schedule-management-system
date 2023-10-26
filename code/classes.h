@@ -24,8 +24,6 @@ class Classes {
         const string get_start_of_class();
         const string get_duration_of_class();
         const string get_type_of_class();
-
-
 }
 
 ;
