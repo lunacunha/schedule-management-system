@@ -55,7 +55,7 @@ void Menu::acessoData() {
     cout << endl;
 }
 
-void Menu::option1(){
+void Menu::option1(){ //falta criar as opcoes diferentes
 
 }
 
