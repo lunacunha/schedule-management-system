@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -39,11 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "project::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c7cbcfc23464e30f3670.json
-					"jsonFile" : "target-project-Debug-f05978bb20c1f673dbdc.json",
-========
 					"jsonFile" : "target-project-Debug-e9d3a68761719fd60673.json",
->>>>>>>> 215f24797326340984203c7cc124a96f552dafba:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d3b580af35f61c2577c6.json
 					"name" : "project",
 					"projectIndex" : 0
 				}
@@ -53,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/marta/clion/projectAED/cmake-build-debug",
-		"source" : "C:/Users/marta/clion/projectAED"
+		"build" : "/Users/luna/Uni/second/AED/project/cmake-build-debug",
+		"source" : "/Users/luna/Uni/second/AED/project"
 	},
 	"version" : 
 	{
