@@ -152,6 +152,33 @@ code/classes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/classes.cpp.s
 .PHONY : code/classes.cpp.s
 
+<<<<<<< HEAD
+=======
+code/marta.obj: code/marta.cpp.obj
+.PHONY : code/marta.obj
+
+# target to build an object file
+code/marta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/marta.cpp.obj
+.PHONY : code/marta.cpp.obj
+
+code/marta.i: code/marta.cpp.i
+.PHONY : code/marta.i
+
+# target to preprocess a source file
+code/marta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/marta.cpp.i
+.PHONY : code/marta.cpp.i
+
+code/marta.s: code/marta.cpp.s
+.PHONY : code/marta.s
+
+# target to generate assembly for a file
+code/marta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/marta.cpp.s
+.PHONY : code/marta.cpp.s
+
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
 code/parsedatatovectors.obj: code/parsedatatovectors.cpp.obj
 .PHONY : code/parsedatatovectors.obj
 
@@ -212,6 +239,12 @@ help:
 	@echo ... code/classes.obj
 	@echo ... code/classes.i
 	@echo ... code/classes.s
+<<<<<<< HEAD
+=======
+	@echo ... code/marta.obj
+	@echo ... code/marta.i
+	@echo ... code/marta.s
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
 	@echo ... code/parsedatatovectors.obj
 	@echo ... code/parsedatatovectors.i
 	@echo ... code/parsedatatovectors.s

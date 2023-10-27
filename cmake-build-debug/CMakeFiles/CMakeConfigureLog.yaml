@@ -61,8 +61,13 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl"
       binary: "C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl"
+=======
+      source: "/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT"
+      binary: "/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT"
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,6 +76,7 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl
         
         Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_c014c/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c014c.dir\\build.make CMakeFiles/cmTC_c014c.dir/build
@@ -95,6 +101,20 @@ events:
         ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
         ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
         ignoring nonexistent directory "/mingw/include"
+=======
+        Change Dir: /Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_138c0 && [1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         #include "..." search starts here:
         #include <...> search starts here:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
@@ -102,6 +122,7 @@ events:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
+<<<<<<< HEAD
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c014c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c014c.dir\\'
          as -v -o CMakeFiles\\cmTC_c014c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\marta\\AppData\\Local\\Temp\\ccu1yEcf.s
@@ -128,6 +149,21 @@ events:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_c014c.exe C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_c014c.dir/objects.a --no-whole-archive --out-implib libcmTC_c014c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c014c.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_c014c.'
         mingw32-make[1]: Leaving directory 'C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl'
+=======
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -o cmTC_138c0   && :
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_138c0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         
       exitCode: 0
   -
@@ -160,6 +196,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
+<<<<<<< HEAD
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         ignore line: [Change Dir: C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl]
         ignore line: []
@@ -185,6 +222,21 @@ events:
         ignore line: [ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
         ignore line: [ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "/mingw/include"]
+=======
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_138c0 && [1/2] /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lOiNWT -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
@@ -192,6 +244,7 @@ events:
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
+<<<<<<< HEAD
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_c014c.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_c014c.dir\\']
         ignore line: [ as -v -o CMakeFiles\\cmTC_c014c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\marta\\AppData\\Local\\Temp\\ccu1yEcf.s]
@@ -232,6 +285,41 @@ events:
         ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7zsoyl']
         ignore line: []
         ignore line: []
+=======
+        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/cc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -o cmTC_138c0   && :]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_138c0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_138c0] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_138c0.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -247,8 +335,13 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-felfm1"
       binary: "C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-felfm1"
+=======
+      source: "/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz"
+      binary: "/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz"
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -257,6 +350,7 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-felfm1
         
         Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d335f/fast && C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d335f.dir\\build.make CMakeFiles/cmTC_d335f.dir/build
@@ -284,6 +378,20 @@ events:
         ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
         ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
         ignoring nonexistent directory "/mingw/include"
+=======
+        Change Dir: /Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_ed379 && [1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         #include "..." search starts here:
         #include <...> search starts here:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
@@ -294,6 +402,7 @@ events:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
+<<<<<<< HEAD
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
         COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d335f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d335f.dir\\'
          as -v -o CMakeFiles\\cmTC_d335f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\marta\\AppData\\Local\\Temp\\ccgxi25C.s
@@ -320,6 +429,21 @@ events:
          C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d335f.exe C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. --whole-archive CMakeFiles\\cmTC_d335f.dir/objects.a --no-whole-archive --out-implib libcmTC_d335f.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d335f.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d335f.'
         mingw32-make[1]: Leaving directory 'C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-felfm1'
+=======
+        [2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed379   && :
+        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_ed379 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-857.1
+        BUILD 23:13:24 May  7 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         
       exitCode: 0
   -
@@ -358,6 +482,7 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
+<<<<<<< HEAD
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         ignore line: [Change Dir: C:/Users/marta/clion/projectAED/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-felfm1]
         ignore line: []
@@ -386,6 +511,21 @@ events:
         ignore line: [ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
         ignore line: [ignoring duplicate directory "C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
         ignore line: [ignoring nonexistent directory "/mingw/include"]
+=======
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_ed379 && [1/2] /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/luna/Uni/second/AED/project/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bqGTbz -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
@@ -396,6 +536,7 @@ events:
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
         ignore line: [ C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
+<<<<<<< HEAD
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
         ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_d335f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d335f.dir\\']
         ignore line: [ as -v -o CMakeFiles\\cmTC_d335f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\marta\\AppData\\Local\\Temp\\ccgxi25C.s]
@@ -437,6 +578,43 @@ events:
         ignore line: []
         ignore line: []
         implicit libs: []
+=======
+        ignore line: [[2/2] : && /Library/Developer/CommandLineTools/usr/bin/c++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ed379   && :]
+        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_ed379 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ed379] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ed379.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+>>>>>>> 215f24797326340984203c7cc124a96f552dafba
         implicit objs: []
         implicit dirs: []
         implicit fwks: []
