@@ -12,4 +12,8 @@ add_executable(project
         code/students.cpp
         code/marta.cpp
         code/possible_operations.h
-        code/possible_operations.cpp)
+        code/possible_operations.cpp
+        code/Menu.h
+        code/Menu.cpp
+        code/Menu.cpp
+)

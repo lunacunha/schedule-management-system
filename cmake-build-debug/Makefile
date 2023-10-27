@@ -128,6 +128,30 @@ project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
+code/Menu.obj: code/Menu.cpp.obj
+.PHONY : code/Menu.obj
+
+# target to build an object file
+code/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Menu.cpp.obj
+.PHONY : code/Menu.cpp.obj
+
+code/Menu.i: code/Menu.cpp.i
+.PHONY : code/Menu.i
+
+# target to preprocess a source file
+code/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Menu.cpp.i
+.PHONY : code/Menu.cpp.i
+
+code/Menu.s: code/Menu.cpp.s
+.PHONY : code/Menu.s
+
+# target to generate assembly for a file
+code/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Menu.cpp.s
+.PHONY : code/Menu.cpp.s
+
 code/classes.obj: code/classes.cpp.obj
 .PHONY : code/classes.obj
 
@@ -152,8 +176,6 @@ code/classes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/classes.cpp.s
 .PHONY : code/classes.cpp.s
 
-<<<<<<< HEAD
-=======
 code/marta.obj: code/marta.cpp.obj
 .PHONY : code/marta.obj
 
@@ -178,7 +200,6 @@ code/marta.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/marta.cpp.s
 .PHONY : code/marta.cpp.s
 
->>>>>>> 215f24797326340984203c7cc124a96f552dafba
 code/parsedatatovectors.obj: code/parsedatatovectors.cpp.obj
 .PHONY : code/parsedatatovectors.obj
 
@@ -202,6 +223,30 @@ code/parsedatatovectors.s: code/parsedatatovectors.cpp.s
 code/parsedatatovectors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/parsedatatovectors.cpp.s
 .PHONY : code/parsedatatovectors.cpp.s
+
+code/possible_operations.obj: code/possible_operations.cpp.obj
+.PHONY : code/possible_operations.obj
+
+# target to build an object file
+code/possible_operations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/possible_operations.cpp.obj
+.PHONY : code/possible_operations.cpp.obj
+
+code/possible_operations.i: code/possible_operations.cpp.i
+.PHONY : code/possible_operations.i
+
+# target to preprocess a source file
+code/possible_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/possible_operations.cpp.i
+.PHONY : code/possible_operations.cpp.i
+
+code/possible_operations.s: code/possible_operations.cpp.s
+.PHONY : code/possible_operations.s
+
+# target to generate assembly for a file
+code/possible_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/possible_operations.cpp.s
+.PHONY : code/possible_operations.cpp.s
 
 code/students.obj: code/students.cpp.obj
 .PHONY : code/students.obj
@@ -236,18 +281,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... project
+	@echo ... code/Menu.obj
+	@echo ... code/Menu.i
+	@echo ... code/Menu.s
 	@echo ... code/classes.obj
 	@echo ... code/classes.i
 	@echo ... code/classes.s
-<<<<<<< HEAD
-=======
 	@echo ... code/marta.obj
 	@echo ... code/marta.i
 	@echo ... code/marta.s
->>>>>>> 215f24797326340984203c7cc124a96f552dafba
 	@echo ... code/parsedatatovectors.obj
 	@echo ... code/parsedatatovectors.i
 	@echo ... code/parsedatatovectors.s
+	@echo ... code/possible_operations.obj
+	@echo ... code/possible_operations.i
+	@echo ... code/possible_operations.s
 	@echo ... code/students.obj
 	@echo ... code/students.i
 	@echo ... code/students.s

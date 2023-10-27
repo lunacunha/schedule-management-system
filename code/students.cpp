@@ -6,7 +6,7 @@
 
 
 //informações sobre os students
-//infrmações a ir buscar: nome; schedule
+//informações a ir buscar: nome; schedule
 
 
 const string Students::get_class_code() {

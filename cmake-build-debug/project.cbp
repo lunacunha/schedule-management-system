@@ -84,22 +84,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/marta/clion/projectAED/code/Menu.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="C:/Users/marta/clion/projectAED/code/Menu.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="C:/Users/marta/clion/projectAED/code/classes.cpp">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="C:/Users/marta/clion/projectAED/code/classes.h">
 			<Option target="project"/>
 		</Unit>
-<<<<<<< HEAD
-=======
 		<Unit filename="C:/Users/marta/clion/projectAED/code/marta.cpp">
 			<Option target="project"/>
 		</Unit>
->>>>>>> 215f24797326340984203c7cc124a96f552dafba
 		<Unit filename="C:/Users/marta/clion/projectAED/code/parsedatatovectors.cpp">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="C:/Users/marta/clion/projectAED/code/parsedatatovectors.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="C:/Users/marta/clion/projectAED/code/possible_operations.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="C:/Users/marta/clion/projectAED/code/possible_operations.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="C:/Users/marta/clion/projectAED/code/students.cpp">
