@@ -5,12 +5,15 @@
 #ifndef PROJECT_POSSIBLE_OPERATIONS_H
 #define PROJECT_POSSIBLE_OPERATIONS_H
 
+#include <iostream>
+#include "students.h"
+using namespace std;
 
 class possible_operations {
 public:
     possible_operations();
 
-    void remove_students_from_uc();
+    void remove_students_from_uc(Student student, string uc_code, string class_code);
     void add_students_to_uc();
     void switch_students_uc();
 
