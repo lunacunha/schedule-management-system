@@ -10,4 +10,8 @@ add_executable(project
         code/parsedatatovectors.h
         code/classes.cpp
         code/students.h
-        code/students.cpp)
+        code/students.cpp
+        code/marta.cpp
+        code/possible_operations.h
+        code/possible_operations.cpp)
+

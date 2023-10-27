@@ -13,7 +13,7 @@ using namespace std;
 
 // função para ver os dados do class.csv e passar para vetor
 
-vector<vector<string>> classToVector(const string& classes) {
+vector<vector<string>> classes_ToVector(const string& classes) {
     ifstream file_to_read("classes.csv");
     vector<vector<string>> dataTotal; //vetor novo com os dados - TOTAL
 
@@ -42,5 +42,7 @@ vector<vector<string>> classToVector(const string& classes) {
 // a duvida é que os vetores de cada linha de classes.csv têm mais campos do que as linhas da classes_per_uc.csv
 // não dá erro?
 
+
+// parse data do file
 
 
