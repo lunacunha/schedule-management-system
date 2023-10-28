@@ -38,17 +38,30 @@ void possible_operations::remove_students_from_uc(Students students, string uc_c
             vetor_final.insert(student_atual); //todos os estudantes não removidos têm de estar no vetor final
         }
     }
+    setStudents(vetor_final); //definir vetor_final como vetor "oficial"
 
-    //
-
-
-
-
+    // ver o que está mal
 }
 
 
-void possible_operations::add_students_to_uc() {
+// o processo do add vai ser semelhante ao do remove
+void possible_operations::add_students_to_uc(Students students, string uc_code, string class_code) {
 
+    // falta a função addClassUC() -> ver p.r
+    set<Students> vetor_final; //depois de se add o aluno
+
+    // student_atual é o student na posição i -> o student por estamos a passar com o nosso loop
+    for (Students& student_atual : students) {
+        // vê se o up do student atual é igual ao up do student passado como argumento
+        if (student_atual.get_up_number() == students.get_up_number()) {
+            vetor_final.insert(students);
+        }
+        else {
+            student_atual.add_students_to_uc(uc_code, class_code);
+            //quando chegamos ao student que queremos add (o seu up ainda não estava no vetor inicial)
+        }
+    }
+    setStudents(vetor_final); //definir vetor_final como vetor "oficial"
 }
 
 void possible_operations::switch_students_uc() {

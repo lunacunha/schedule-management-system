@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include "classes.h"
+#include "students.h"
+#include "possible_operations.h"
 using namespace std;
 
 class Students {
@@ -22,6 +24,7 @@ public:
     const string get_uc_code();
     const string get_up_number();
     const string get_student_name();
+
 }
 
 ;

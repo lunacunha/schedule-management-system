@@ -6,6 +6,7 @@
 #define PROJECT_POSSIBLE_OPERATIONS_H
 
 #include <iostream>
+#include <set>
 #include "students.h"
 using namespace std;
 
@@ -13,9 +14,11 @@ class possible_operations {
 public:
     possible_operations();
 
-    void remove_students_from_uc(Student student, string uc_code, string class_code);
-    void add_students_to_uc();
+    void remove_students_from_uc(Students student, string uc_code, string class_code);
+    void add_students_to_uc(Students student, string uc_code, string class_code);
     void switch_students_uc();
+
+    void setStudents(set<Students> students);
 
 
 };
