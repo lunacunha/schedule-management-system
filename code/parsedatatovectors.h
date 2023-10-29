@@ -10,7 +10,8 @@
 using namespace std;
 
 
-vector<vector<string>> readDataFromFile(const string& classes);
+vector<vector<string>> classes_toVector(const string& classes);
+vector<vector<string>> students_classes_toVector(const string& students_classes);
 
 // é assim que fica o header???
 
