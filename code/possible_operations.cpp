@@ -18,7 +18,7 @@
 
 //não é preciso saber o número de vagas em cada uc e em cada class?
 
-void possible_operations::remove_students_from_uc(Students students, string uc_code, string class_code) {
+void possible_operations::remove_students_from_uc(Students student, string uc_code, string class_code) {
 
     //faltam os getters (???)
 
@@ -28,9 +28,9 @@ void possible_operations::remove_students_from_uc(Students students, string uc_c
 
     // student_atual é o student na posição i -> o student por estamos a passar com o nosso loop
     // temos de por Students& para nao estar sempre a criar cópias ou não é preciso?
-    for (Students& student_atual : students) {
+    for (Students& student_atual : student) {
         // vê se o up do student atual é igual ao up do student passado como argumento
-        if (student_atual.get_up_number() == students.get_up_number()) {
+        if (student_atual.get_up_number() == student.get_up_number()) {
             student_atual.remove_students_from_uc(uc_code, class_code);
             //quando chegamos ao student que queremos remover
         }
@@ -45,16 +45,18 @@ void possible_operations::remove_students_from_uc(Students students, string uc_c
 
 
 // o processo do add vai ser semelhante ao do remove
-void possible_operations::add_students_to_uc(Students students, string uc_code, string class_code) {
+void possible_operations::add_students_to_uc(Students student, string uc_code, string class_code) {
 
-    // falta a função addClassUC() -> ver p.r
+
+    //tentar pôr aqui a addClassUC() do p.r dentro desta função
+    
     set<Students> vetor_final; //depois de se add o aluno
 
     // student_atual é o student na posição i -> o student por estamos a passar com o nosso loop
-    for (Students& student_atual : students) {
+    for (Students& student_atual : student) {
         // vê se o up do student atual é igual ao up do student passado como argumento
-        if (student_atual.get_up_number() == students.get_up_number()) {
-            vetor_final.insert(students);
+        if (student_atual.get_up_number() == student.get_up_number()) {
+            vetor_final.insert(student);
         }
         else {
             student_atual.add_students_to_uc(uc_code, class_code);
@@ -65,6 +67,21 @@ void possible_operations::add_students_to_uc(Students students, string uc_code, 
 }
 
 void possible_operations::switch_students_uc() {
+
+}
+
+
+// função para verificar se todos os requisitos estão a ser cumpridos
+bool verify_preconditions(Students student, string uc_code, string class_code) {
+
+    /*
+     - um estudante só pode estar numa class por uc
+     - um estudante só pode ser add a uma class se a class tiver vaga
+     - "" "" se não perturbar o balance da class ocupation: a diferença entre o numero de students em
+     qualquer class tem de ser < ou = a 4
+     - não pode haver conflito entre o schedule do estudante e o schedule da nova class
+
+     */
 
 }
 
