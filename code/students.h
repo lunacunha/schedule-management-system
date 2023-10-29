@@ -19,6 +19,8 @@ private:
     string up_number;
     string student_name;
 
+    set<Students> students;
+
 public:
     const string get_class_code();
     const string get_uc_code();

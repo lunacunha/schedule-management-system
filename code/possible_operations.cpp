@@ -18,6 +18,8 @@
 
 //não é preciso saber o número de vagas em cada uc e em cada class?
 
+
+
 void possible_operations::remove_students_from_uc(Students student, string uc_code, string class_code) {
 
     //faltam os getters (???)
@@ -43,13 +45,13 @@ void possible_operations::remove_students_from_uc(Students student, string uc_co
     // ver o que está mal
 }
 
-
+/*
 // o processo do add vai ser semelhante ao do remove
 void possible_operations::add_students_to_uc(Students student, string uc_code, string class_code) {
 
 
     //tentar pôr aqui a addClassUC() do p.r dentro desta função
-    
+
     set<Students> vetor_final; //depois de se add o aluno
 
     // student_atual é o student na posição i -> o student por estamos a passar com o nosso loop
@@ -64,25 +66,74 @@ void possible_operations::add_students_to_uc(Students student, string uc_code, s
         }
     }
     setStudents(vetor_final); //definir vetor_final como vetor "oficial"
+}*/
+
+void possible_operations::add_students_to_uc(Students student, string uc_code, string class_code) {
+
+    set<Students> vetor_final;
+    set<Classes> lista_classes = student.get_class_code();
+    set<Classes> lista_final; //novo set onde vamos add os elementos que queremos
+
+    for (Classes each_class : lista_classes) {
+        if (each_class.get_class_code() == classe_code && each_class.get_uc_code() == uc_code) {
+            lista_final.push_back(each_class);
+        }
+
+        student.setClasses(lista_final);
+
+        for (Students& student_atual : student) {
+            if (student_atual.get_up_number() == student.get_up_number()) {
+                vetor_final.insert(student);
+            }
+            else {
+                student_atual.add_students_to_uc(uc_code, class_code);
+            }
+        }
+        setStudents(vetor_final);
+    };
+
+void possible_operations::switch_students_uc() { }
+
+/*
+ 1º contamos os estudantes numa class/uc
+ 2º verficamos se os requisitos são todos cumpridos
+
+ - um estudante só pode estar numa class por uc
+ - um estudante só pode ser add a uma class se a class tiver vaga
+ - "" "" se não perturbar o balance da class ocupation: a diferença entre o numero de students em
+ qualquer class tem de ser < ou = a 4
+ - não pode haver conflito entre o schedule do estudante e o schedule da nova class
+
+ */
+
+// função para contar os alunos inscritos numa class e uc
+int count_students(string uc_code, string class_code) {
+
+    int count_students = 0;
+
+    for (Students student_atual : students) { //para cada estudante
+        for (Classes student_class : student_atual.get_class_code()) { //para todas as turmas associadas ao estudante em que estamos (student_atual)
+            if (student_class.get_uc_code() == uc_code && stude)
+        }
+    }
+
+    return count_st
 }
 
-void possible_operations::switch_students_uc() {
-
-}
 
 
-// função para verificar se todos os requisitos estão a ser cumpridos
+
+// função para verificar se os requisitos estão todos a ser cumpridos
 bool verify_preconditions(Students student, string uc_code, string class_code) {
 
-    /*
-     - um estudante só pode estar numa class por uc
-     - um estudante só pode ser add a uma class se a class tiver vaga
-     - "" "" se não perturbar o balance da class ocupation: a diferença entre o numero de students em
-     qualquer class tem de ser < ou = a 4
-     - não pode haver conflito entre o schedule do estudante e o schedule da nova class
 
-     */
+};
 
-}
+
+
+
+
+
 
 possible_operations::possible_operations() {}
+

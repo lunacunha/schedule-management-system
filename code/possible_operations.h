@@ -25,6 +25,7 @@ public:
     bool verify_preconditions(Students student, string uc_code, string class_code);
 
     void setStudents(set<Students> students);
+    void setClasses(set<Classes> classes);
 
 
 };

@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include "students.h"
 
 using namespace std;
 
