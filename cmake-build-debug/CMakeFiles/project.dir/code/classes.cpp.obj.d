@@ -146,4 +146,5 @@ CMakeFiles/project.dir/code/classes.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/list \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_list.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
- C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc
+ C:/Program\ Files/JetBrains/CLion\ 2023.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/list.tcc \
+ C:\Users\marta\clion\projectAED\code\Student.h

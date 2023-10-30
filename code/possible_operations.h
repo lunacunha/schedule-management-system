@@ -8,11 +8,12 @@
 #include <iostream>
 #include <set>
 #include <list>
-#include "students.h"
+#include "Student.h"
 #include "classes.h"
 using namespace std;
 
 class possible_operations {
+<<<<<<< HEAD
 
     public:
     possible_operations();
@@ -26,6 +27,20 @@ class possible_operations {
 
         void setStudents(set<Students*> students);
         void setClasses(set<Classes*> classes);
+=======
+public:
+    //possible_operations();
+
+    // operações
+    void remove_students_from_uc(Student* student, string uc_code, string class_code);
+    void add_students_to_uc(Student* student, string uc_code, string class_code);
+    void switch_students_uc(Student* student, string uc_code, string class_code);
+
+    bool verify_preconditions(Student* student, string uc_code, string class_code);
+
+    void setStudents(set<Student*> students);
+    void setClasses(set<Classes*> classes);
+>>>>>>> 63a7c1f37de2c2958e1b60653098e267a1ee5b90
 
         set<Students*> getStudents();
         set<Classes*> getClasses();
