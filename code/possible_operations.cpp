@@ -2,10 +2,16 @@
 // Created by Luna on 27/10/2023.
 //
 
-#include "possible_operations.h"
-#include "students.h"
 #include "classes.h"
 #include <set>
+#include "Menu.h"
+#include "possible_operations.h"
+#include "students.h"
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 
 /*
  operações possiveis:
@@ -26,7 +32,10 @@ const set<Students> possible_operations::getStudents() {
 } */
 
 
-
+vector<students> possible_operations::get_students() {
+    vector<students> estudante;
+    return estudante;
+}
 
 void possible_operations::remove_students_from_uc(Student* student, string uc_code, string class_code) {
 

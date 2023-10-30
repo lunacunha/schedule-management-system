@@ -143,45 +143,13 @@ CMakeFiles/project.dir/code/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/code/Menu.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marta\clion\projectAED\code\Menu.cpp -o CMakeFiles\project.dir\code\Menu.cpp.s
 
-CMakeFiles/project.dir/code/ScheduleManager.cpp.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/code/ScheduleManager.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/code/ScheduleManager.cpp.obj: C:/Users/marta/clion/projectAED/code/ScheduleManager.cpp
-CMakeFiles/project.dir/code/ScheduleManager.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marta\clion\projectAED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project.dir/code/ScheduleManager.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/code/ScheduleManager.cpp.obj -MF CMakeFiles\project.dir\code\ScheduleManager.cpp.obj.d -o CMakeFiles\project.dir\code\ScheduleManager.cpp.obj -c C:\Users\marta\clion\projectAED\code\ScheduleManager.cpp
-
-CMakeFiles/project.dir/code/ScheduleManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/code/ScheduleManager.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marta\clion\projectAED\code\ScheduleManager.cpp > CMakeFiles\project.dir\code\ScheduleManager.cpp.i
-
-CMakeFiles/project.dir/code/ScheduleManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/code/ScheduleManager.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marta\clion\projectAED\code\ScheduleManager.cpp -o CMakeFiles\project.dir\code\ScheduleManager.cpp.s
-
-CMakeFiles/project.dir/code/Student.cpp.obj: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/code/Student.cpp.obj: CMakeFiles/project.dir/includes_CXX.rsp
-CMakeFiles/project.dir/code/Student.cpp.obj: C:/Users/marta/clion/projectAED/code/Student.cpp
-CMakeFiles/project.dir/code/Student.cpp.obj: CMakeFiles/project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marta\clion\projectAED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project.dir/code/Student.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project.dir/code/Student.cpp.obj -MF CMakeFiles\project.dir\code\Student.cpp.obj.d -o CMakeFiles\project.dir\code\Student.cpp.obj -c C:\Users\marta\clion\projectAED\code\Student.cpp
-
-CMakeFiles/project.dir/code/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/code/Student.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\marta\clion\projectAED\code\Student.cpp > CMakeFiles\project.dir\code\Student.cpp.i
-
-CMakeFiles/project.dir/code/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/code/Student.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\marta\clion\projectAED\code\Student.cpp -o CMakeFiles\project.dir\code\Student.cpp.s
-
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj" \
 "CMakeFiles/project.dir/code/classes.cpp.obj" \
 "CMakeFiles/project.dir/code/students.cpp.obj" \
 "CMakeFiles/project.dir/code/possible_operations.cpp.obj" \
-"CMakeFiles/project.dir/code/Menu.cpp.obj" \
-"CMakeFiles/project.dir/code/ScheduleManager.cpp.obj" \
-"CMakeFiles/project.dir/code/Student.cpp.obj"
+"CMakeFiles/project.dir/code/Menu.cpp.obj"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
@@ -191,13 +159,11 @@ project.exe: CMakeFiles/project.dir/code/classes.cpp.obj
 project.exe: CMakeFiles/project.dir/code/students.cpp.obj
 project.exe: CMakeFiles/project.dir/code/possible_operations.cpp.obj
 project.exe: CMakeFiles/project.dir/code/Menu.cpp.obj
-project.exe: CMakeFiles/project.dir/code/ScheduleManager.cpp.obj
-project.exe: CMakeFiles/project.dir/code/Student.cpp.obj
 project.exe: CMakeFiles/project.dir/build.make
 project.exe: CMakeFiles/project.dir/linkLibs.rsp
 project.exe: CMakeFiles/project.dir/objects1.rsp
 project.exe: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marta\clion\projectAED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marta\clion\projectAED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable project.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

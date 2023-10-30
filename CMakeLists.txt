@@ -15,8 +15,4 @@ add_executable(project
         code/Menu.h
         code/Menu.cpp
         code/Menu.cpp
-        code/ScheduleManager.h
-        code/ScheduleManager.cpp
-        code/ScheduleManager.cpp
-        code/Student.cpp
 )

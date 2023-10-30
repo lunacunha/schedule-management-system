@@ -90,18 +90,6 @@
 		<Unit filename="C:/Users/marta/clion/projectAED/code/Menu.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/marta/clion/projectAED/code/ScheduleManager.cpp">
-			<Option target="project"/>
-		</Unit>
-		<Unit filename="C:/Users/marta/clion/projectAED/code/ScheduleManager.h">
-			<Option target="project"/>
-		</Unit>
-		<Unit filename="C:/Users/marta/clion/projectAED/code/Student.cpp">
-			<Option target="project"/>
-		</Unit>
-		<Unit filename="C:/Users/marta/clion/projectAED/code/Student.h">
-			<Option target="project"/>
-		</Unit>
 		<Unit filename="C:/Users/marta/clion/projectAED/code/classes.cpp">
 			<Option target="project"/>
 		</Unit>

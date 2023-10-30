@@ -8,6 +8,7 @@
 #include <iostream>
 #include "classes.h"
 #include "students.h"
+#include <string>
 #include "possible_operations.h"
 using namespace std;
 
@@ -18,10 +19,15 @@ private:
     string uc_code;
     string up_number;
     string student_name;
-
     set<Students> students;
 
+
 public:
+    Students(const std::string& upNumber, const std::string& name);
+
+    string get_up_number() const;
+    string get_name() const;
+
     const string get_class_code();
     const string get_uc_code();
     const string get_up_number();

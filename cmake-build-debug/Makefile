@@ -152,54 +152,6 @@ code/Menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Menu.cpp.s
 .PHONY : code/Menu.cpp.s
 
-code/ScheduleManager.obj: code/ScheduleManager.cpp.obj
-.PHONY : code/ScheduleManager.obj
-
-# target to build an object file
-code/ScheduleManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/ScheduleManager.cpp.obj
-.PHONY : code/ScheduleManager.cpp.obj
-
-code/ScheduleManager.i: code/ScheduleManager.cpp.i
-.PHONY : code/ScheduleManager.i
-
-# target to preprocess a source file
-code/ScheduleManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/ScheduleManager.cpp.i
-.PHONY : code/ScheduleManager.cpp.i
-
-code/ScheduleManager.s: code/ScheduleManager.cpp.s
-.PHONY : code/ScheduleManager.s
-
-# target to generate assembly for a file
-code/ScheduleManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/ScheduleManager.cpp.s
-.PHONY : code/ScheduleManager.cpp.s
-
-code/Student.obj: code/Student.cpp.obj
-.PHONY : code/Student.obj
-
-# target to build an object file
-code/Student.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Student.cpp.obj
-.PHONY : code/Student.cpp.obj
-
-code/Student.i: code/Student.cpp.i
-.PHONY : code/Student.i
-
-# target to preprocess a source file
-code/Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Student.cpp.i
-.PHONY : code/Student.cpp.i
-
-code/Student.s: code/Student.cpp.s
-.PHONY : code/Student.s
-
-# target to generate assembly for a file
-code/Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project.dir\build.make CMakeFiles/project.dir/code/Student.cpp.s
-.PHONY : code/Student.cpp.s
-
 code/classes.obj: code/classes.cpp.obj
 .PHONY : code/classes.obj
 
@@ -308,12 +260,6 @@ help:
 	@echo ... code/Menu.obj
 	@echo ... code/Menu.i
 	@echo ... code/Menu.s
-	@echo ... code/ScheduleManager.obj
-	@echo ... code/ScheduleManager.i
-	@echo ... code/ScheduleManager.s
-	@echo ... code/Student.obj
-	@echo ... code/Student.i
-	@echo ... code/Student.s
 	@echo ... code/classes.obj
 	@echo ... code/classes.i
 	@echo ... code/classes.s

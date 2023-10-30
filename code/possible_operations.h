@@ -8,14 +8,20 @@
 #include <iostream>
 #include <set>
 #include <list>
-#include "Student.h"
+#include "students.h"
 #include "classes.h"
+#include <string>
+#include <vector>
+#include "Menu.h"
+#include "possible_operations.h"
+
 using namespace std;
 
 class possible_operations {
 <<<<<<< HEAD
 
     public:
+    vector<students> get_students();
     possible_operations();
 
     // operações

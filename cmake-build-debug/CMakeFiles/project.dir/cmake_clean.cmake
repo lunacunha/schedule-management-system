@@ -1,10 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/project.dir/code/Menu.cpp.obj"
   "CMakeFiles/project.dir/code/Menu.cpp.obj.d"
-  "CMakeFiles/project.dir/code/ScheduleManager.cpp.obj"
-  "CMakeFiles/project.dir/code/ScheduleManager.cpp.obj.d"
-  "CMakeFiles/project.dir/code/Student.cpp.obj"
-  "CMakeFiles/project.dir/code/Student.cpp.obj.d"
   "CMakeFiles/project.dir/code/classes.cpp.obj"
   "CMakeFiles/project.dir/code/classes.cpp.obj.d"
   "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj"
