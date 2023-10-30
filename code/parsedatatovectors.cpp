@@ -69,11 +69,10 @@ vector<Students> students_classes_toVector(const string& students_classes, const
     
 
     vector<Classes> dataTotal_ucs = classes_toVector("classes.csv");
-    vector<Students> dataTotal_students = students_classes_toVector("students_classes.csv", dataTotal_ucs);
 
 
     ifstream file_to_read(students_classes);
-    
+
     vector<Students> dataTotal_students; //vetor novo com os dados - TOTAL
 
     string file_lines;
@@ -101,7 +100,9 @@ vector<Students> students_classes_toVector(const string& students_classes, const
             }
         }
 
-        dataTotal_students.push_back(new_student); 
+        dataTotal_students.push_back(new_student);
+
+        //resolver isto
     }
 
     file_to_read.close();

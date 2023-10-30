@@ -2,16 +2,10 @@
 // Created by Luna on 27/10/2023.
 //
 
-#include "classes.h"
-#include <set>
-#include "Menu.h"
 #include "possible_operations.h"
 #include "students.h"
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
+#include "classes.h"
+#include <set>
 
 /*
  operações possiveis:
@@ -32,17 +26,31 @@ const set<Students> possible_operations::getStudents() {
 } */
 
 
-vector<students> possible_operations::get_students() {
-    vector<students> estudante;
-    return estudante;
-}
+possible_operations::possible_operations() {}
 
-void possible_operations::remove_students_from_uc(Student* student, string uc_code, string class_code) {
+
+
+void remove_students_from_uc(Student* student, string uc_code, string class_code) {
 
     list<Classes> lista_classes = {};
+    bool is_valid = false;
 
-    for (auto class_uc : student->get_name()) {
+    for (Classes class_uc : student->get_name()) {
         //class_uc - class
+        if (class_code == class_uc.get_class_code() && uc_code == class_uc.get_uc_code()){
+            is_valid = true;
+        }
+        else {
+            lista_classes.push_back(class_uc);
+        }
+    }
+    student.setClasses(lista_classes);
+
+    if (is_valid = false) {
+        cout << "Esse input não é válido. \n"
+    }
+    else {
+        cout << student->get_name() << "(" << student->get_up_number() << ") já não parte da UC/Class.\n"
     }
 
     
@@ -50,7 +58,7 @@ void possible_operations::remove_students_from_uc(Student* student, string uc_co
     // student_atual é o student na posição i -> o student por estamos a passar com o nosso loop
     // temos de por Students& para nao estar sempre a criar cópias ou não é preciso?
     
-
+    Students student = getStudents();
     set<Students*> novos_students; //conjuntos final depois de se remover o aluno
      
     for (Students* student_atual : student) {
@@ -133,6 +141,8 @@ int count_students(string uc_code, string class_code) {
 
     int count_students = 0;
 
+    set<Students*> students = getStudents();
+
     for (Students student_atual : students) { //para cada estudante
         for (Classes student_class : student_atual.get_class_code()) { //para todas as turmas associadas ao estudante em que estamos (student_atual)
             if (student_class.get_uc_code() == uc_code && student_class.get_class_code() == class_code) {
@@ -159,5 +169,5 @@ bool verify_preconditions(Students student, string uc_code, string class_code) {
 
 
 
-possible_operations::possible_operations() {}
+
 

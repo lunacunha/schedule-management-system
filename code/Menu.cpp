@@ -1,10 +1,10 @@
 //
 // Created by marta on 27/10/2023.
 //
-#include "ScheduleManager.h"
+
 #include "Menu.h"
 #include "parsedatatovectors.h"
-#include "Student.h"
+#include "students.h"
 #include <iostream>
 #include <cctype>
 #include <string>
@@ -84,6 +84,8 @@ void Menu::option1(){
     vector<vector<string>> studentData = students_classes_toVector("students_classes.csv");
     vector<vector<string>> classData = students_classes_toVector("classes.csv");
 
+
+// aqui não é ScheduleManager Martini
     for (const Student &student: ScheduleManager.get_students()) {
         if (student.get_up_number() == id || toLower(student.get_name()) == toLower(id)) {
             valid = true;
@@ -132,7 +134,7 @@ void Menu::mudarData() {
     cout << "Que dados pretende alterar? \n\n"
          << "1- mudar estudante de turma \n"
          << "2- remover estudantes de uma UC/turma \n"
-         << "3- adicionar estudante a uma UC/turma \n"
+         << "3- adicionar estudante a uma UC/turma \n";
 
     string option;
     cout << endl << "Escolha uma opção:";

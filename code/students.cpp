@@ -3,24 +3,16 @@
 //
 
 #include "students.h"
-#include <iostream>
-using namespace std;
 
-// Implementações dos métodos da classe Student
-
-Students::Students(const string& upNumber, const string& name) {
-}
-
-string Students::get_up_number() const {
-    return up_number;
-}
-
-string Students::get_name() const {
-    return student_name;
-}
 
 //informações sobre os students
 //informações a ir buscar: nome; schedule
+
+
+Students::Students(const string &up_number, const string &student_name) {
+    this->up_number = up_number;
+    this->student_name = student_name;
+}
 
 
 const string Students::get_class_code() {
@@ -29,4 +21,12 @@ const string Students::get_class_code() {
 
 const string Students::get_uc_code() {
     return uc_code;
+}
+
+const string Students::get_student_name() {
+    return student_name;
+}
+
+void Students::append_uc(const Classes &uc) {
+    classes.insert(uc);
 }
