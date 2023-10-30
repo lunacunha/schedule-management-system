@@ -24,6 +24,12 @@ public:
     void option4();
 
     void option5();
+
+    void option1mudar();
+
+    void option2mudar();
+
+    void option3mudar();
 };
 
 
