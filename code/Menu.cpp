@@ -30,7 +30,7 @@ void Menu::start() {
     while (run == true) {
         cout << "........................................................\n"
              << "........................................................\n";
-        cout << "O que pretende fazer?\n"
+        cout << "O que pretende fazer?\n\n"
              << "1- Aceder a dados \n"
              << "2- Alterar dados \n"
              << "Q- Sair \n";
@@ -52,12 +52,13 @@ void Menu::start() {
 
 void Menu::acessoData() {
     cout << "........................................................\n";
-    cout << "A quais dados quer aceder? \n"
+    cout << "A quais dados quer aceder? \n\n"
          << "1- horário de um estudante \n"
          << "2- horário de uma turma \n"
          << "3- horário de uma UC \n"
-         << "4- horário da turma de uma UC específica \n"
-         << "5- horário de todos os  estudantes de uma turma \n";
+         << "4- UC com mais estudantes inscritos \n"
+         << "5- número de estudantes de uma turma \n";
+
     string option;
     cout << endl << "Escolha uma opção:";
     cin >> option;
@@ -67,6 +68,24 @@ void Menu::acessoData() {
     else if (option == "3") option3();
     else if (option == "4") option4();
     else if (option == "5") option5();
+    else {cout << "O input inserido não é válido\n";}
+    cout << endl;
+}
+
+void Menu::mudarData() {
+    cout << "........................................................\n";
+    cout << "Que dados pretende alterar? \n\n"
+         << "1- mudar estudante de turma \n"
+         << "2- remover estudantes de uma UC/turma \n"
+         << "3- adicionar estudante a uma UC/turma \n"
+
+    string option;
+    cout << endl << "Escolha uma opção:";
+    cin >> option;
+
+    if (option =="1") option1mudar();
+    else if (option == "2") option2mudar();
+    else if (option == "3") option3mudar();
     else {cout << "O input inserido não é válido\n";}
     cout << endl;
 }
@@ -91,6 +110,14 @@ void Menu::option5(){
 }
 
 
-void Menu::mudarData(){
+void Menu::option1mudar(){
+
+}
+
+void Menu::option2mudar(){
+
+}
+
+void Menu::option3mudar(){
 
 }

@@ -3,8 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/project.dir/code/Menu.cpp.obj.d"
   "CMakeFiles/project.dir/code/classes.cpp.obj"
   "CMakeFiles/project.dir/code/classes.cpp.obj.d"
-  "CMakeFiles/project.dir/code/marta.cpp.obj"
-  "CMakeFiles/project.dir/code/marta.cpp.obj.d"
   "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj"
   "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj.d"
   "CMakeFiles/project.dir/code/possible_operations.cpp.obj"
