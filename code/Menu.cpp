@@ -4,7 +4,23 @@
 
 #include "Menu.h"
 #include <iostream>
+#include <cctype>
+#include <string>
 using namespace std;
+
+//para usar nas perguntas para fazer ao user
+
+string toLower(string str){ //passar strings para minusculas
+    for (auto& elem : str){ //permite alterar a str original o auto
+        elem = tolower(elem);}
+    return str;
+}
+
+string toUpper(string str){ //passar strings para maiusculas
+    for (auto& elem : str){
+        elem = toupper(elem);}
+    return str;
+}
 
 Menu::Menu(){}
 
@@ -40,8 +56,8 @@ void Menu::acessoData() {
          << "1- horário de um estudante \n"
          << "2- horário de uma turma \n"
          << "3- horário de uma UC \n"
-         << "2- horário da turma de uma UC específica \n"
-         << "3- horário de todos os  estudantes de uma turma \n";
+         << "4- horário da turma de uma UC específica \n"
+         << "5- horário de todos os  estudantes de uma turma \n";
     string option;
     cout << endl << "Escolha uma opção:";
     cin >> option;
