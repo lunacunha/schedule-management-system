@@ -28,12 +28,12 @@ const set<Students> possible_operations::getStudents() {
 
 
 
-void possible_operations::remove_students_from_uc(Students* student, string uc_code, string class_code) {
+void possible_operations::remove_students_from_uc(Student* student, string uc_code, string class_code) {
 
     list<Classes> lista_classes = {};
 
-    for (Classes class_uc : student.getClasses()) {
-
+    for (auto class_uc : student->get_name()) {
+        //class_uc - class
     }
 
     
@@ -44,7 +44,7 @@ void possible_operations::remove_students_from_uc(Students* student, string uc_c
 
     set<Students*> novos_students; //conjuntos final depois de se remover o aluno
      
-    for (Students* student_atual : students) {
+    for (Students* student_atual : student) {
         // vê se o up do student atual é igual ao up do student passado como argumento
         if (student_atual -> get_up_number() == student -> get_up_number()) {
             continue;

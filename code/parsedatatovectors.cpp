@@ -65,7 +65,11 @@ vector<vector<string>> students_classes_toVector(const string& students_classes)
     }
 
     file_to_read.close();
-
+    for(auto it : dataTotal){
+        for(auto x : it){
+        cout << x << endl;
+        }
+    }
     return dataTotal;
 }
 
