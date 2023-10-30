@@ -30,3 +30,7 @@ const string Students::get_student_name() {
 void Students::append_uc(const Classes &uc) {
     classes.insert(uc);
 }
+
+set<Students*> Students::getStudents() {
+    return students;
+}

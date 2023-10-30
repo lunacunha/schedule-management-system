@@ -102,7 +102,7 @@ vector<Students> students_classes_toVector(const string& students_classes, const
 
         dataTotal_students.push_back(new_student);
 
-        //resolver isto
+        //ver se é preciso resolver push_back()
     }
 
     file_to_read.close();

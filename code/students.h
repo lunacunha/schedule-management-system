@@ -19,8 +19,8 @@ private:
     string up_number;
     string student_name;
 
-    set<Students> students;
-    set<Classes> classes;
+    set<Students*> students;
+    set<Classes*> classes;
 
 public:
 
@@ -32,8 +32,11 @@ Students(const string &up_number, const string &student_name);
     const string get_student_name();
 
     set<Classes*> getClasses();
+    set<Students*> getStudents();
 
     void append_uc(const Classes& uc);
+    auto setStudents(set<Students*> students);
+
 
 }
 

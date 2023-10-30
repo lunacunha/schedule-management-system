@@ -10,6 +10,7 @@
 #include <list>
 #include "students.h"
 #include "classes.h"
+#include "parsedatatovectors.h"
 using namespace std;
 
 class possible_operations {
@@ -24,12 +25,15 @@ class possible_operations {
 
         bool verify_preconditions(Students* student, string uc_code, string class_code);
 
-        auto setStudents(set<Students*> students);
-        auto setClasses(set<Classes*> classes);
+        //auto set_students(set<Students*> students);
+        //auto set_classes(set<Classes*> classes);
 
         set<Students*> getStudents();
         set<Classes*> getClasses();
         // é preciso pôr const?
+
+        int count_students(string uc_code, string class_code);
+
     
     private: 
         set<Students*> students;

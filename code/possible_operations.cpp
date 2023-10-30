@@ -141,12 +141,11 @@ int count_students(string uc_code, string class_code) {
 
     int count_students = 0;
 
-    set<Students*> students = getStudents();
-
+    //resolver isto
     for (Students student_atual : students) { //para cada estudante
         for (Classes student_class : student_atual.get_class_code()) { //para todas as turmas associadas ao estudante em que estamos (student_atual)
             if (student_class.get_uc_code() == uc_code && student_class.get_class_code() == class_code) {
-                count_students = count_students + 1;
+                count_students++;
             }
         }
     }
@@ -154,13 +153,33 @@ int count_students(string uc_code, string class_code) {
     return count_students;
 }
 
-
-
-
 // função para verificar se os requisitos estão todos a ser cumpridos
 bool verify_preconditions(Students student, string uc_code, string class_code) {
 
+    vector<Classes> dataTotal_ucs = parsedatatovectors::classes_toVector("classes.csv");
+    //resolver isto
 
+    int total_students = 0;
+    int min_students = 0;
+    int max_students = INT_MAX;
+
+    for (Classes class_uc : dataTotal_ucs) {
+        if (class_uc.get_uc_code() == uc_code) {
+            int count = count_students(uc_code, class_uc.get_class_code());
+            total_students = total_students + count;
+
+            if (count > min_students) {
+                min_students = count;
+            }
+            if (count < max_students) {
+                max_students = count;
+            }
+        }
+    }
+
+    if (((min_students - max_students) <= 4) && (total_students >= 5)) {
+        return true;
+    }
 };
 
 
