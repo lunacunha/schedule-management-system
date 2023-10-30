@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include "students.h"
+#include "possible_operations.h"
 
 using namespace std;
 
@@ -20,11 +21,17 @@ class Classes {
         string duration_of_class;
         string type_of_class;
 
+        string uc_code;
+        string class_code;
+
     public:
         const string get_day_of_class();
         const string get_start_of_class();
         const string get_duration_of_class();
         const string get_type_of_class();
+
+        const string get_uc_code();
+        const string get_class_code();
 }
 
 ;

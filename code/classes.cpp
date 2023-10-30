@@ -5,6 +5,7 @@
 #include "classes.h"
 
 
+
 //informações sobre as classes
 // dados sobre as turmas: código da UC; código da turma; dia; hora_começo; duração; tipo (T,TP,PL); horário
 

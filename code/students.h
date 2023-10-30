@@ -27,6 +27,11 @@ public:
     const string get_up_number();
     const string get_student_name();
 
+    set<Classes*> getClasses();
+
+
+
+
 }
 
 ;

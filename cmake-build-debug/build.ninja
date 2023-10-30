@@ -70,13 +70,6 @@ build CMakeFiles/project.dir/code/students.cpp.o: CXX_COMPILER__project_unscanne
   OBJECT_DIR = CMakeFiles/project.dir
   OBJECT_FILE_DIR = CMakeFiles/project.dir/code
 
-build CMakeFiles/project.dir/code/marta.cpp.o: CXX_COMPILER__project_unscanned_Debug /Users/luna/Uni/second/AED/project/code/marta.cpp || cmake_object_order_depends_target_project
-  DEP_FILE = CMakeFiles/project.dir/code/marta.cpp.o.d
-  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/luna/Uni/second/AED/project/code
-  OBJECT_DIR = CMakeFiles/project.dir
-  OBJECT_FILE_DIR = CMakeFiles/project.dir/code
-
 build CMakeFiles/project.dir/code/possible_operations.cpp.o: CXX_COMPILER__project_unscanned_Debug /Users/luna/Uni/second/AED/project/code/possible_operations.cpp || cmake_object_order_depends_target_project
   DEP_FILE = CMakeFiles/project.dir/code/possible_operations.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
@@ -99,7 +92,7 @@ build CMakeFiles/project.dir/code/Menu.cpp.o: CXX_COMPILER__project_unscanned_De
 #############################################
 # Link the executable project
 
-build project: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/code/parsedatatovectors.cpp.o CMakeFiles/project.dir/code/classes.cpp.o CMakeFiles/project.dir/code/students.cpp.o CMakeFiles/project.dir/code/marta.cpp.o CMakeFiles/project.dir/code/possible_operations.cpp.o CMakeFiles/project.dir/code/Menu.cpp.o
+build project: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/code/parsedatatovectors.cpp.o CMakeFiles/project.dir/code/classes.cpp.o CMakeFiles/project.dir/code/students.cpp.o CMakeFiles/project.dir/code/possible_operations.cpp.o CMakeFiles/project.dir/code/Menu.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/project.dir
   POST_BUILD = :

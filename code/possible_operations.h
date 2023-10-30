@@ -21,7 +21,6 @@ public:
     void add_students_to_uc(Students student, string uc_code, string class_code);
     void switch_students_uc(Students student, string uc_code, string class_code);
 
-
     bool verify_preconditions(Students student, string uc_code, string class_code);
 
     void setStudents(set<Students> students);
