@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/marta/clion/projectAED/code/Menu.cpp" "CMakeFiles/project.dir/code/Menu.cpp.obj" "gcc" "CMakeFiles/project.dir/code/Menu.cpp.obj.d"
+  "C:/Users/marta/clion/projectAED/code/ScheduleManager.cpp" "CMakeFiles/project.dir/code/ScheduleManager.cpp.obj" "gcc" "CMakeFiles/project.dir/code/ScheduleManager.cpp.obj.d"
+  "C:/Users/marta/clion/projectAED/code/Student.cpp" "CMakeFiles/project.dir/code/Student.cpp.obj" "gcc" "CMakeFiles/project.dir/code/Student.cpp.obj.d"
   "C:/Users/marta/clion/projectAED/code/classes.cpp" "CMakeFiles/project.dir/code/classes.cpp.obj" "gcc" "CMakeFiles/project.dir/code/classes.cpp.obj.d"
   "C:/Users/marta/clion/projectAED/code/parsedatatovectors.cpp" "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj" "gcc" "CMakeFiles/project.dir/code/parsedatatovectors.cpp.obj.d"
   "C:/Users/marta/clion/projectAED/code/possible_operations.cpp" "CMakeFiles/project.dir/code/possible_operations.cpp.obj" "gcc" "CMakeFiles/project.dir/code/possible_operations.cpp.obj.d"
