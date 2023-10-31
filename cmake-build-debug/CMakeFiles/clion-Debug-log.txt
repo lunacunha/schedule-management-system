@@ -1,5 +1,6 @@
 "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\marta\clion\projectAED -B C:\Users\marta\clion\projectAED\cmake-build-debug
 <<<<<<< HEAD
+<<<<<<< HEAD
 -- Configuring done (0.2s)
 =======
 -- The C compiler identification is GNU 13.1.0
@@ -15,6 +16,9 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done (6.3s)
+>>>>>>> main
+=======
+-- Configuring done (0.2s)
 >>>>>>> main
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/marta/clion/projectAED/cmake-build-debug
