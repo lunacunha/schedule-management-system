@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "project"
+			"path" : "project.exe"
+		},
+		{
+			"path" : "project.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -42,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/luna/Uni/second/AED/project/code"
+					"path" : "C:/Users/marta/clion/projectAED/code"
 				}
 			],
 			"language" : "CXX",
@@ -83,12 +86,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "project",
-	"nameOnDisk" : "project",
+	"nameOnDisk" : "project.exe",
 	"paths" : 
 	{
 		"build" : ".",
