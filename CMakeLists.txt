@@ -11,7 +11,14 @@ add_executable(project
         code/classes.cpp
         code/students.h
         code/students.cpp
-        code/marta.cpp
         code/possible_operations.h
+<<<<<<< HEAD
         code/possible_operations.cpp)
 
+=======
+        code/possible_operations.cpp
+        code/Menu.h
+        code/Menu.cpp
+        code/Menu.cpp
+)
+>>>>>>> main

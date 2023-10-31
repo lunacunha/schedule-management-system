@@ -7,13 +7,16 @@
 
 #include <vector>
 #include <string>
+#include "classes.h"
+#include "students.h"
 using namespace std;
 
+class ParseDataToVectors {
+    public:
+        ParseDataToVectors();
 
-vector<vector<string>> readDataFromFile(const string& classes);
-
-// é assim que fica o header???
-
+        vector<Classes> classes_toVector(const string& classes);
+        vector<Students> students_classes_toVector(const string& students_classes, const vector<Classes>& ucs);
+};
 
 #endif //PROJECT_PARSEDATATOVECTORS_H
-
