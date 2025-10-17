@@ -1,5 +1,7 @@
 # Schedule Management System
 
+Course project for Algorithms and Data Structures (L.EIC - FEUP, 2023/2024)
+
 ## Project Overview
 
 This project implements a schedule management system for university courses (UCs) and classes. The system allows viewing student and class schedules, managing student enrollments, and maintaining class balance constraints.
